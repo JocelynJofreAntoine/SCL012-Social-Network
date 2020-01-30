@@ -1,0 +1,29 @@
+[debug] [2020-01-30T13:18:37.731Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T13:18:37.767Z] Command:       c:\Program Files\nodejs\node.exe c:\Users\jocyt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-01-30T13:18:37.768Z] CLI Version:   7.12.1
+[debug] [2020-01-30T13:18:37.768Z] Platform:      win32
+[debug] [2020-01-30T13:18:37.768Z] Node Version:  v12.13.1
+[debug] [2020-01-30T13:18:37.857Z] Time:          Thu Jan 30 2020 10:18:37 GMT-0300 (GMT-03:00)
+[debug] [2020-01-30T13:18:37.857Z] ----------------------------------------------------------------------
+[debug] [2020-01-30T13:18:37.857Z] 
+[debug] [2020-01-30T13:18:37.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-30T13:18:37.920Z] > authorizing via signed-in user
+[debug] [2020-01-30T13:18:37.920Z] [iam] checking project finger-food for permissions ["firebase.projects.get"]
+[debug] [2020-01-30T13:18:37.926Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-30T13:18:37.926Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-30T13:18:38.374Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-30T13:18:38.472Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/finger-food:testIamPermissions  
+
+[debug] [2020-01-30T13:18:39.734Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-30T13:18:39.735Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/finger-food  
+ 
+[debug] [2020-01-30T13:18:40.947Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\jocyt\OneDrive\Escritorio\SCL012-Social-Network'...
+[info] 
+[debug] [2020-01-30T13:18:41.058Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/finger-food/webApps/-/config  
+ 
+[debug] [2020-01-30T13:18:41.583Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] +  hosting: Local server: http://localhost:5000
